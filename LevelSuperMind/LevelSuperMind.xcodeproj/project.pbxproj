@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		CFE092042D70CE9A008B81FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFE091E52D70CE99008B81FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFE091EC2D70CE99008B81FB;
+			remoteInfo = LevelSuperMind;
+		};
+		CFE0920E2D70CE9A008B81FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFE091E52D70CE99008B81FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFE091EC2D70CE99008B81FB;
+			remoteInfo = LevelSuperMind;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFE091ED2D70CE99008B81FB /* LevelSuperMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LevelSuperMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE092032D70CE9A008B81FB /* LevelSuperMindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LevelSuperMindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE0920D2D70CE9A008B81FB /* LevelSuperMindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LevelSuperMindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CFE0923E2D70D564008B81FB /* Exceptions for "LevelSuperMind" folder in "LevelSuperMind" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CFE091EC2D70CE99008B81FB /* LevelSuperMind */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CFE092062D70CE9A008B81FB /* LevelSuperMindTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LevelSuperMindTests;
+			sourceTree = "<group>";
+		};
+		CFE092102D70CE9A008B81FB /* LevelSuperMindUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LevelSuperMindUITests;
+			sourceTree = "<group>";
+		};
+		CFE092382D70D564008B81FB /* LevelSuperMind */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CFE0923E2D70D564008B81FB /* Exceptions for "LevelSuperMind" folder in "LevelSuperMind" target */,
+			);
+			path = LevelSuperMind;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFE091EA2D70CE99008B81FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE092002D70CE9A008B81FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE0920A2D70CE9A008B81FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFE091E42D70CE99008B81FB = {
+			isa = PBXGroup;
+			children = (
+				CFE092382D70D564008B81FB /* LevelSuperMind */,
+				CFE092062D70CE9A008B81FB /* LevelSuperMindTests */,
+				CFE092102D70CE9A008B81FB /* LevelSuperMindUITests */,
+				CFE091EE2D70CE99008B81FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFE091EE2D70CE99008B81FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFE091ED2D70CE99008B81FB /* LevelSuperMind.app */,
+				CFE092032D70CE9A008B81FB /* LevelSuperMindTests.xctest */,
+				CFE0920D2D70CE9A008B81FB /* LevelSuperMindUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFE091EC2D70CE99008B81FB /* LevelSuperMind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFE092162D70CE9A008B81FB /* Build configuration list for PBXNativeTarget "LevelSuperMind" */;
+			buildPhases = (
+				CFE091E92D70CE99008B81FB /* Sources */,
+				CFE091EA2D70CE99008B81FB /* Frameworks */,
+				CFE091EB2D70CE99008B81FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CFE092382D70D564008B81FB /* LevelSuperMind */,
+			);
+			name = LevelSuperMind;
+			packageProductDependencies = (
+			);
+			productName = LevelSuperMind;
+			productReference = CFE091ED2D70CE99008B81FB /* LevelSuperMind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFE092022D70CE9A008B81FB /* LevelSuperMindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFE0921B2D70CE9A008B81FB /* Build configuration list for PBXNativeTarget "LevelSuperMindTests" */;
+			buildPhases = (
+				CFE091FF2D70CE9A008B81FB /* Sources */,
+				CFE092002D70CE9A008B81FB /* Frameworks */,
+				CFE092012D70CE9A008B81FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFE092052D70CE9A008B81FB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CFE092062D70CE9A008B81FB /* LevelSuperMindTests */,
+			);
+			name = LevelSuperMindTests;
+			packageProductDependencies = (
+			);
+			productName = LevelSuperMindTests;
+			productReference = CFE092032D70CE9A008B81FB /* LevelSuperMindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFE0920C2D70CE9A008B81FB /* LevelSuperMindUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFE0921E2D70CE9A008B81FB /* Build configuration list for PBXNativeTarget "LevelSuperMindUITests" */;
+			buildPhases = (
+				CFE092092D70CE9A008B81FB /* Sources */,
+				CFE0920A2D70CE9A008B81FB /* Frameworks */,
+				CFE0920B2D70CE9A008B81FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFE0920F2D70CE9A008B81FB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CFE092102D70CE9A008B81FB /* LevelSuperMindUITests */,
+			);
+			name = LevelSuperMindUITests;
+			packageProductDependencies = (
+			);
+			productName = LevelSuperMindUITests;
+			productReference = CFE0920D2D70CE9A008B81FB /* LevelSuperMindUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFE091E52D70CE99008B81FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					CFE091EC2D70CE99008B81FB = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					CFE092022D70CE9A008B81FB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = CFE091EC2D70CE99008B81FB;
+					};
+					CFE0920C2D70CE9A008B81FB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = CFE091EC2D70CE99008B81FB;
+					};
+				};
+			};
+			buildConfigurationList = CFE091E82D70CE99008B81FB /* Build configuration list for PBXProject "LevelSuperMind" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFE091E42D70CE99008B81FB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CFE091EE2D70CE99008B81FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFE091EC2D70CE99008B81FB /* LevelSuperMind */,
+				CFE092022D70CE9A008B81FB /* LevelSuperMindTests */,
+				CFE0920C2D70CE9A008B81FB /* LevelSuperMindUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFE091EB2D70CE99008B81FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE092012D70CE9A008B81FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE0920B2D70CE9A008B81FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFE091E92D70CE99008B81FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE091FF2D70CE9A008B81FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE092092D70CE9A008B81FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFE092052D70CE9A008B81FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFE091EC2D70CE99008B81FB /* LevelSuperMind */;
+			targetProxy = CFE092042D70CE9A008B81FB /* PBXContainerItemProxy */;
+		};
+		CFE0920F2D70CE9A008B81FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFE091EC2D70CE99008B81FB /* LevelSuperMind */;
+			targetProxy = CFE0920E2D70CE9A008B81FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CFE092172D70CE9A008B81FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FV6LSDGT2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LevelSuperMind/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Launchs;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.magenative.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFE092182D70CE9A008B81FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FV6LSDGT2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LevelSuperMind/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Launchs;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.magenative.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFE092192D70CE9A008B81FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFE0921A2D70CE9A008B81FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFE0921C2D70CE9A008B81FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.levelsupermind.app.LevelSuperMindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LevelSuperMind.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LevelSuperMind";
+			};
+			name = Debug;
+		};
+		CFE0921D2D70CE9A008B81FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.levelsupermind.app.LevelSuperMindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LevelSuperMind.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LevelSuperMind";
+			};
+			name = Release;
+		};
+		CFE0921F2D70CE9A008B81FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.levelsupermind.app.LevelSuperMindUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LevelSuperMind;
+			};
+			name = Debug;
+		};
+		CFE092202D70CE9A008B81FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.levelsupermind.app.LevelSuperMindUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LevelSuperMind;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFE091E82D70CE99008B81FB /* Build configuration list for PBXProject "LevelSuperMind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE092192D70CE9A008B81FB /* Debug */,
+				CFE0921A2D70CE9A008B81FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFE092162D70CE9A008B81FB /* Build configuration list for PBXNativeTarget "LevelSuperMind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE092172D70CE9A008B81FB /* Debug */,
+				CFE092182D70CE9A008B81FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFE0921B2D70CE9A008B81FB /* Build configuration list for PBXNativeTarget "LevelSuperMindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE0921C2D70CE9A008B81FB /* Debug */,
+				CFE0921D2D70CE9A008B81FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFE0921E2D70CE9A008B81FB /* Build configuration list for PBXNativeTarget "LevelSuperMindUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE0921F2D70CE9A008B81FB /* Debug */,
+				CFE092202D70CE9A008B81FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFE091E52D70CE99008B81FB /* Project object */;
+}
