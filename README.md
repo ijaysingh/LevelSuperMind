@@ -1,6 +1,6 @@
-#Project Setup Instructions
+# Project Setup Instructions
 
-##Running the Project
+## Running the Project
 
 - No external dependencies are required.
 
